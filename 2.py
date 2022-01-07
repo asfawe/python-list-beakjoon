@@ -1,0 +1,25 @@
+sum = []
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
+g = int(input())
+h = int(input())
+i = int(input())
+
+sum.append(a)
+sum.append(b)
+sum.append(c)
+sum.append(d)
+sum.append(e)
+sum.append(f)
+sum.append(g)
+sum.append(h)
+sum.append(i)
+
+print(max(sum))
+sum2 = sum.index(max(sum))
+print(sum2 + 1)
